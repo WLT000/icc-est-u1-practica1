@@ -26,6 +26,39 @@ public class App {
         new Estudiante("E013", "Luis",   19, 7.8, "Electronica")));
 
 
+        Ejercicios ejercicios = new Ejercicios();
+
+        System.out.println("*****************c1**********************");
+
+        ejercicios.c1(estudiantes);
+
+        System.out.println("*****************c2**********************");
+
+        ejercicios.c2(estudiantes);
+
+        System.out.println("******************c3*********************");
+
+        ejercicios.c3(estudiantes);
+
+        System.out.println("*******************c4*********************");
+
+        ejercicios.c4(estudiantes);
+
+        System.out.println("********************c5********************");
+
+        ejercicios.c5(estudiantes);
+
+        System.out.println("********************c6********************");
+
+        ejercicios.c6(estudiantes);
+
+        System.out.println("**********************c7******************");
+        
+        ejercicios.c7(estudiantes);
+
+
+
+
     }
 }
     
